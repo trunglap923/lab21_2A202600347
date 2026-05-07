@@ -39,7 +39,7 @@
 | **4. LoRA vs QLoRA**    | **Hallucination**: Gọi QLoRA là "Quadratic LoRA" (sai bản chất).            | Định nghĩa đúng thuật ngữ kỹ thuật (_Low-Rank Approximation/Adaptation_).   | **Significantly Improved**: Hết lỗi thuật ngữ.              |
 | **5. Prompt, RAG, FT**  | **Hallucination**: Gọi RAG là "Run-As-Gen" (vô nghĩa).                      | Định nghĩa chính xác về Prompt Engineering và vai trò kích thích mô hình.   | **Significantly Improved**: Kiến thức domain chuẩn xác hơn. |
 
-> **Ghi chú**: Cả hai model đều gặp hiện tượng bị cắt cụt câu (truncated) do giới hạn `max_new_tokens=200` trong quá trình inference. Tuy nhiên, model Fine-tuned cho thấy sự cải thiện vượt bậc về việc hiểu các thuật ngữ chuyên ngành AI.
+> **Ghi chú**: Cả hai model đều gặp hiện tượng bị cắt cụt câu (truncated) do giới hạn `max_new_tokens=300` trong quá trình inference. Tuy nhiên, model Fine-tuned cho thấy sự cải thiện vượt bậc về việc hiểu các thuật ngữ chuyên ngành AI.
 
 ## 5. Conclusion on Rank Trade-off
 

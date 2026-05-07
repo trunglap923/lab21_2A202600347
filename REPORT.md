@@ -23,7 +23,7 @@
 
 ## 3. Loss Curve Analysis
 
-![Loss Curve r=16](results/loss_curve.png)
+![Loss Curve r=16](loss_curve.png)
 
 - Biểu đồ Loss của phiên bản **r=16** (Baseline) cho thấy xu hướng giảm ổn định từ mức 1.83 xuống còn khoảng 1.11 sau 69 steps.
 - Sự hội tụ diễn ra mạnh mẽ nhất trong 20 steps đầu tiên. Có một sự biến động nhẹ tại step 35, nhưng sau đó loss tiếp tục giảm sâu, cho thấy model đang học tốt các cấu trúc câu trong dataset tiếng Việt.
